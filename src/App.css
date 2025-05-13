@@ -1,0 +1,71 @@
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.discordLogo {
+  height: 30px;
+}
+
+.menuIcon {
+  height: 40px;
+}
+
+main {
+  width: 530px;
+}
+
+main h1 {
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 1;
+}
+main p {
+  font-size: larger;
+}
+
+.downloads {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btns {
+  display: flex;
+  flex-direction: column;
+
+  button {
+    margin: 10px;
+    border-radius: 30px;
+    font-size: 20px;
+  }
+}
+
+.btns button {
+  padding: 20px;
+}
+
+.downloadBtn {
+  background-color: white;
+  color: black;
+  margin: 50px;
+  border-style: none;
+}
+
+.browserBtn {
+  background-color: rgb(60, 60, 60);
+  border-style: none;
+  color: white;
+}
